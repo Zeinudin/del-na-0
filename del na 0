@@ -1,0 +1,13 @@
+x = 10
+def delenie(x):
+  ch=x
+  while x>= ch*-1:
+    try:
+      y = ch/x
+      print(y)
+    except ZeroDivisionError:
+      print("Del na 0")
+   
+    x=x-1
+
+delenie(10)
